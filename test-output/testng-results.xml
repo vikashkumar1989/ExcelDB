@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12561" started-at="2019-01-14T11:33:45Z" finished-at="2019-01-14T11:33:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12561" started-at="2019-01-14T11:33:45Z" finished-at="2019-01-14T11:33:57Z">
+      <class name="dataBase.DBReadExcelWrite">
+        <test-method status="PASS" signature="MySQLExecute()[pri:0, instance:dataBase.DBReadExcelWrite@47c62251]" name="MySQLExecute" duration-ms="1174" started-at="2019-01-14T17:03:45Z" finished-at="2019-01-14T17:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MySQLExecute -->
+        <test-method status="PASS" signature="excelWrite()[pri:1, instance:dataBase.DBReadExcelWrite@47c62251]" name="excelWrite" duration-ms="994" started-at="2019-01-14T17:03:47Z" finished-at="2019-01-14T17:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelWrite -->
+        <test-method status="PASS" signature="OpenFile()[pri:0, instance:dataBase.DBReadExcelWrite@47c62251]" name="OpenFile" is-config="true" duration-ms="6241" started-at="2019-01-14T17:03:48Z" finished-at="2019-01-14T17:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenFile -->
+      </class> <!-- dataBase.DBReadExcelWrite -->
+      <class name="dataBase.ExcelReadDBWrite">
+        <test-method status="PASS" signature="ExcelRead()[pri:0, instance:dataBase.ExcelReadDBWrite@3e6fa38a]" name="ExcelRead" duration-ms="1525" started-at="2019-01-14T17:03:46Z" finished-at="2019-01-14T17:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcelRead -->
+        <test-method status="PASS" signature="MySQLInsert()[pri:1, instance:dataBase.ExcelReadDBWrite@3e6fa38a]" name="MySQLInsert" duration-ms="1026" started-at="2019-01-14T17:03:55Z" finished-at="2019-01-14T17:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MySQLInsert -->
+        <test-method status="PASS" signature="OpenFile()[pri:0, instance:dataBase.ExcelReadDBWrite@3e6fa38a]" name="OpenFile" is-config="true" duration-ms="1483" started-at="2019-01-14T17:03:56Z" finished-at="2019-01-14T17:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenFile -->
+      </class> <!-- dataBase.ExcelReadDBWrite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

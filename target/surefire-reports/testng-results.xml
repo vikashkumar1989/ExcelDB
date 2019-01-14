@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6122" started-at="2019-01-14T11:39:42Z" finished-at="2019-01-14T11:39:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6122" started-at="2019-01-14T11:39:42Z" finished-at="2019-01-14T11:39:48Z">
+      <class name="dataBase.DBReadExcelWrite">
+        <test-method status="PASS" signature="MySQLExecute()[pri:0, instance:dataBase.DBReadExcelWrite@58ceff1]" name="MySQLExecute" duration-ms="810" started-at="2019-01-14T17:09:42Z" finished-at="2019-01-14T17:09:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MySQLExecute -->
+        <test-method status="PASS" signature="excelWrite()[pri:1, instance:dataBase.DBReadExcelWrite@58ceff1]" name="excelWrite" duration-ms="1367" started-at="2019-01-14T17:09:43Z" finished-at="2019-01-14T17:09:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelWrite -->
+        <test-method status="PASS" signature="OpenFile()[pri:0, instance:dataBase.DBReadExcelWrite@58ceff1]" name="OpenFile" is-config="true" duration-ms="3881" started-at="2019-01-14T17:09:44Z" finished-at="2019-01-14T17:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenFile -->
+      </class> <!-- dataBase.DBReadExcelWrite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
